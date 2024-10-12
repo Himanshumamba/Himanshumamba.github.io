@@ -737,7 +737,7 @@ ul.email li i {
 /** contact section **/
 
 .contact {
-     background: #fefeff;
+      background: linear-gradient(to bottom, #ffffff, #87CEFA);
      padding: 90px 0;
 }
 
