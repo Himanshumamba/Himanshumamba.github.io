@@ -464,7 +464,7 @@ ul.email li i {
 .we_box {
      border: #e6e7e8 solid 1px;
      transition: ease-in all 0.5s;
-     padding: 40px;
+     padding: 1.5rem;
      height: 64vh;
      width: 100%;
      margin-bottom: 26px;
