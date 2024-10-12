@@ -543,7 +543,7 @@ ul.email li i {
 .about {
 
      padding: 90px 0;
-     background-color: #000;
+     background: linear-gradient(to bottom, #1E3A8A, #87CEFA);
 }
 
 .about .titlepage::before {
