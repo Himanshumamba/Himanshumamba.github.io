@@ -373,7 +373,7 @@ ul.email li i {
      padding-top: 120px;
      position: relative;
      height: 95vh;
-     background-color: #333333;
+    background: linear-gradient(to bottom, #1E3A8A, #87CEFA);
 
 }
 
