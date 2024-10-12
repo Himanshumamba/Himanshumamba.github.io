@@ -836,10 +836,10 @@ ul.email li i {
 }
 
 .clientsl_text p {
-     color: #757575;
-     padding-top: 62px;
-     display: block;
-     text-align: justify;
+    color: #004085;
+    padding-top: 2rem;
+    display: block;
+    text-align: justify;
 }
 
 #clientsl .carousel-indicators {
