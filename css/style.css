@@ -389,7 +389,7 @@ ul.email li i {
 
 #myCarousel .carousel-indicators li {
      cursor: pointer;
-     background: #fff;
+     background: #000;
      border-radius: 40px;
      width: 22px;
      height: 22px;
