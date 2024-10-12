@@ -300,7 +300,7 @@ header
      width: 100%;
      background: #1E3A8A;
      padding: 12px 0;
-     position: absolute;
+     position: fixed;
      z-index: 999;
      box-shadow: 3px 0 13px rgba(30, 30, 30, 0.90);
 }
