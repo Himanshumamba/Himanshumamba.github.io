@@ -232,9 +232,12 @@ button {
 }
 
 .read_more:hover {
-     background: #0e0b01;
-     color: #fff;
-     transition: ease-in all 0.5s;
+    transition: ease-in all 0.5s;
+    color: #000;
+    border: 1px solid transparent;
+    background-image: linear-gradient(white, white), linear-gradient(90deg, #FF5733, #FFBD33, #FFDA33, #75FF33, #33FFBD, #33A1FF, #335BFF, #9B33FF);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 }
 
 .img_responsive {
