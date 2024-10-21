@@ -6195,6 +6195,7 @@ button.bg-dark:focus {
 
 .rounded-circle {
   border-radius: 50% !important;
+  border: 3px solid #ffffff;
 }
 
 .rounded-0 {
