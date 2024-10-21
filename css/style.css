@@ -219,8 +219,8 @@ button {
 
 .read_more {
      display: inline-block;
-     background: #6dcff6;
-     color: #fff;
+     background: #fff;
+     color: #000;
      max-width: 215px;
      height: 61px;
      line-height: 61px;
