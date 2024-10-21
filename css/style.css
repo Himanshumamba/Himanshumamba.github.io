@@ -664,10 +664,12 @@ ul.email li i {
 }
 
 .portfolio .read_more {
-     margin: 0 auto;
-     display: block;
-     background: #252525;
-     margin-top: 30px;
+    margin: 0 auto;
+    display: block;
+    background: #ffffff;
+    border: 1px solid #000;
+    color: #000;
+    margin-top: 30px;
 }
 
 .portfolio .read_more:hover {
