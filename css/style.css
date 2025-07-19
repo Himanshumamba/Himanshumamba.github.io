@@ -1039,3 +1039,10 @@ ul.social_icon li a:hover {
 .inner_page .about {
      margin: 90px 0;
 }
+.we_box img {
+   max-height: 180px;
+   object-fit: contain;
+   width: 100%;
+   margin-bottom: 15px;
+   border-radius: 10px;
+}
