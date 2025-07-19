@@ -87,7 +87,9 @@ $(function () {
      -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
      // optional
      $('#blogCarousel').carousel({
-        interval: 1000
+        interval: 500,
+         wrap: false,
+         pause: 'hover'
      });
 
 
