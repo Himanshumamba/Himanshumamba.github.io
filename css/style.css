@@ -1046,3 +1046,6 @@ ul.social_icon li a:hover {
    margin-bottom: 15px;
    border-radius: 10px;
 }
+.case_study {
+    padding-bottom: 0;
+}
