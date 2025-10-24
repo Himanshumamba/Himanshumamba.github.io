@@ -789,7 +789,7 @@ ul.email li i {
 .main_form .send_btn {
      font-size: 17px;
      transition: ease-in all 0.5s;
-     background-color: #fff
+     background-color: #fff;
      text-transform: uppercase;
      color: #000;
      padding: 25px 0px;
@@ -1048,4 +1048,51 @@ ul.social_icon li a:hover {
 }
 .case_study {
     padding-bottom: 0;
+}
+/* === Accessibility Section Styles === */
+.case_study_accessibility {
+  padding: 80px 0;
+  background-color: #f9fafb; /* light neutral background */
+}
+
+
+
+.case_study_accessibility .titlepage h2::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 0.6rem;
+  background-color: #212529; /* accent blue (Tailwind-like cyan) */
+  margin-top: 8px;
+  border-radius: 2px;
+}
+
+.case_study_accessibility .titlepage .subtitle {
+  font-size: 1.05rem;
+  color: #475569; /* medium gray */
+  margin-top: 10px;
+  max-width: 700px;
+}
+
+/* === Carousel images === */
+.case_study_accessibility img {
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.case_study_accessibility img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* === Responsive tweaks === */
+@media (max-width: 768px) {
+  .case_study_accessibility .titlepage h2 {
+    font-size: 1.8rem;
+  }
+
+  .case_study_accessibility .titlepage .subtitle {
+    font-size: 0.95rem;
+  }
 }
