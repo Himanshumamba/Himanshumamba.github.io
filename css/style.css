@@ -549,7 +549,7 @@ background: linear-gradient(135deg, #3B82F6, #10B981);
 .about {
 
      padding: 90px 0;
-  background-color: #F9FAFB;
+  background-color: #fff;
 }
 
 .about .titlepage::before {
