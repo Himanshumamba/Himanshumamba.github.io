@@ -1115,3 +1115,67 @@ ul.social_icon li a:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
+/* ===== INDUSTRIES SECTION ===== */
+.industries {
+  background: #f9fafb;
+  padding: 80px 0;
+}
+
+.industries .titlepage h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 10px;
+}
+
+.industries .titlepage p {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 50px;
+}
+
+.industry_box {
+  background: #ffffff;
+  padding: 25px 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+  border: 1px solid #e5e7eb;
+  min-height: 150px;
+}
+
+.industry_box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.10);
+  border-color: #3b82f6;
+}
+
+.industry_box h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.industry_box p {
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .industry_box {
+    padding: 20px 15px;
+    margin-bottom: 20px;
+  }
+
+  .industries .titlepage h2 {
+    font-size: 26px;
+  }
+
+  .industries .titlepage p {
+    font-size: 14px;
+  }
+}
