@@ -1208,7 +1208,10 @@ ul.social_icon li a:hover {
 .floating-video-portrait .close-btn:hover {
   background: rgba(0,0,0,0.8);
 }
-
+.nav-link:hover {
+  color: #0ea5e9; 
+  border-bottom: 2px solid #0ea5e9;
+}
 /* Responsive behavior */
 @media (max-width: 768px) {
   .floating-video-portrait {
